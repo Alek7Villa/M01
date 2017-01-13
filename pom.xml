@@ -59,22 +59,7 @@
                     </execution>
                 </executions>
             </plugin>
-        <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.0.0</version>
-       <goals><goal>war</goal></goals>
-	<executions>
-	 <execution>
-	<id>generando test</id>
-	<phase>test</phase>
-	<goals>
-	<goal>war</goal>
-	</goals>
-	 
-	</execution>
-	</executions>
-      </plugin>
+        
     </plugins>
   </build>
 </project>
